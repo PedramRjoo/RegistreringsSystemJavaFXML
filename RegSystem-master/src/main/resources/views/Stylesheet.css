@@ -1,0 +1,128 @@
+
+
+
+/******** TABS  ********/
+
+.tab-pane
+{
+    -fx-tab-min-width:230px;
+    -fx-tab-max-width:230px;
+    -fx-tab-min-height:50px;
+    -fx-tab-max-height:50px;
+}
+.tab{
+    -fx-background-color: grey;
+}
+
+.tab-label
+{
+    -fx-font-size: 30;
+    -fx-text-alignment: CENTER;
+}
+
+
+.tab:hover, .tab-pane:hover
+{
+    -fx-background-color: Black;
+}
+
+
+.tab-label:selected, .tab:selected
+{
+    -fx-background-color: LightGREY;
+}
+
+
+/******** BAKGRUNNN  ********/
+
+.anchorPane
+{
+    -fx-background-color: LightGREY;
+}
+
+
+.text-area
+{
+    -fx-font-size: 18;
+    -fx-background-color: Grey;
+    -fx-text-fill: BlACK;
+
+}
+.txtArea
+{
+    -fx-font-size: 12;
+    -fx-background-color: Grey;
+    -fx-text-fill: BlACK;
+}
+.txtArea *.text
+{
+    -fx-opacity: 1;
+}
+
+.text-area *.text
+{
+    -fx-opacity: 1;
+}
+
+.txtAreaOversikt
+{
+
+
+    -fx-text-fill: BlACK;
+    -fx-opacity: 1;
+    -fx-font-size: 24;
+
+}
+
+.txtAreaOversikt .text
+{
+    -fx-text-alignment: center;
+}
+
+.txtNull
+{
+    -fx-background-color: lightGrey;
+    -fx-text-fill: black;
+    -fx-font-size: 16;
+}
+
+
+/******** TABLE-VIEW  ********/
+.table-view
+{
+    -fx-border-color: darkgrey;
+}
+
+.table-view .column-header-background .label
+{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header
+{
+    -fx-background-color: #616161;
+}
+
+.table-view .table-cell
+{
+    -fx-text-fill: black;
+}
+.table-view:focused
+{
+    -fx-background-color: transparent;
+}
+
+.table-row-cell
+{
+
+    -fx-background-color: -fx-table-cell-border-color, lightgrey;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-row-cell:selected
+{
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
